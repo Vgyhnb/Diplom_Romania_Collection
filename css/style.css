@@ -1,0 +1,388 @@
+body {
+  display: block;
+  margin: 2px;
+}
+
+li {list-style-type:none}
+
+  p>a.bott{ padding: 10px 60px ;
+    border-width:3px;
+    border-color:#C2D1F3; 
+    border-radius:20px; 
+    background-color:#fff; 
+    position:absolute; top:850px;
+  }
+  a.bott{
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration:none;
+  color:#000;
+  }
+  a.bott:hover{
+  box-shadow:4px 4px 19px #D1DEFA;
+  background-color:#000; color:#fff}
+
+
+[src*="fotoInterior"] {width:100%; height:100%;
+}
+
+[src="iPhone-15-Pro-Front1"] {width:100%; height:100%; margin-top:50px;
+}
+[src*='iPhone14pro_1'] {width:100%; height:100%; 
+}
+[src*='GroupiPhone14pro'] {width:100%; height:100%; 
+}
+
+[src*='Woman']{
+  width: 287px;
+  position: absolute;
+  left: 138px;
+  top: 54px;}
+
+img[src$='chair1.png'] { width:350px; 
+}
+.Chair { background: url('img/chair2.png'); width: 308px; height: 361px; transition:0.20s }
+.Chair:hover { background: url('img/chair.png'); transition:0.20s; }
+
+img[src$='pattern.png'] {text-align:center; width:100%;
+}
+[url*="pattern"]:hover{ box-shadow: 2px 4px 13px 0px #C2D1F3; 
+}
+
+#smail{ background-image: url('img/elements.png');
+  background-repeat: no-repeat;
+  background-position: 2px 2px; width: 40px; height: 40px;}
+ul {
+list-style-type:none
+}
+il {
+list-style-type:none
+}
+
+
+#circ{position:absolute; bottom:139px; left:500px;
+}
+#blobs{position:absolute; bottom:-344px; left:-118px;
+}
+.wom{
+    position:relative; 
+    width:550px; height:493px; 
+    border-radius:40px; 
+    background: #F8F8F8;}
+
+span{
+display:inline; vertical-align:top;
+}
+span.Imgblock{
+display:block; 
+margin-top:244px;
+}
+.Step{
+margin-top:20px; 
+}
+.SCont2 > img { height: 450px; margin: 10px; transition: transform 0.5s }
+.SCont2 > img:hover { transform: scale(1.2); }
+
+
+.H3 {
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+}
+
+.h1{
+font-size:40px; font-weight:500; 
+}
+
+h2 {
+color:gray;
+}
+.h4 {
+color: var(--Accent-blue, #C2D1F3);
+text-align: center;
+font-family: Montserrat;
+font-size: 80px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.text {
+font-family: Montserrat;
+font-size:20px;
+font-style: normal;
+font-weight: 300;
+line-height: 30px; /* 150% */
+}
+
+.Dop {font-size: 18px;
+opacity:50%; 
+}
+.Wid {width:460px; 
+}
+.WidR{width:280px; 
+}
+
+.Alig{text-align:right;
+}
+hr {color:black; margin-top:30px; width:600px;
+}
+
+.Left{
+text-align:right; font-size:30px;opacity:50%; padding: 0 20px 0 20px;
+}
+.Right{ 
+text-align:left; font-size:30px;opacity:50%; padding: 0 20px 0 20px;
+}
+
+div>p{
+font-size:20px;
+font-style: normal;
+font-weight:300; 
+}
+
+div.info
+{ display:flex; justify-content: center; 
+}
+div.info>p.thought
+{color: #2F2F2F;
+text-align: center;
+font-size: 20px;
+font-style: italic;
+font-weight: 300;
+line-height: 35px; /* 115% */
+}
+
+div.thought{
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 150% */
+}
+
+.tyt{
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 150% */
+}
+
+.Bold{
+text-align: center;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px; /* 150% */
+}
+.phone{ 
+position: relative; } 
+.four{
+position:absolute; z-index:5; bottom:1008px;}
+.s_8 { 
+left: 525px; top: -40px; position:absolute}
+
+form input[type='text'] {
+  width: 380px;
+  height: 46px;
+  font-family: Lato;
+  font-size: 14px;
+  padding-left: 22px;
+  border-radius: 2px;
+  border: solid 1px #333333;
+  margin:10px
+}
+
+form textarea{
+width: 380px;
+  height: 80px;
+  font-family: Lato;
+  font-size: 14px;
+  padding-left: 22px;
+  border-radius: 2px;
+  border: solid 1px #333333;
+  margin:10px
+}
+
+form input[type='submit'] {
+  width: 380px;
+  height: 46px;
+  font-family: Lato;
+  font-size: 14px;
+  padding-left: 22px;
+  border-radius: 2px;
+  border: solid 1px #333333;
+  margin:10px
+}
+
+.burger{
+border:none;
+display:none;
+position:relative;
+width:100px;
+height:80px;
+cursor:pointer;
+}
+.burger_item{
+position:absolute;
+top:35%;
+left:20%;
+transform: translate(10px, 10px);
+width:50px;
+height:6px;
+background-color:transparent;
+transition:0.5s;
+}
+.burger_item::before,
+.burger_item::after{
+content:' ';
+position:absolute;
+width:50px;
+height:6px;
+background-color:transparent;
+transition:0.5s;
+}
+.burger_item::before{
+top:16px;
+}
+.burger_item::after{
+bottom:16px;
+}
+.burger:hover .burger_item{
+background-color:transporent;
+}
+.burger:hover .burger_item::before{
+top:0;
+transform:rotate(45deg);
+}
+.burger:hover .burger_item::after{
+top:0;
+transform:rotate(-45deg);
+}
+.navbar{
+display:flex;
+left:0;
+top:0;
+align-items:center;
+width:95%;
+height:85px;
+}
+.menu{
+display:flex;
+}
+.menu>li{
+display:flex;
+list-style-type:none;
+}
+.menu>li>a{
+display:flex;
+padding: 0 20px;
+text-decoration:none;
+font-size:20px;
+font-weight:400;
+color:#000; opacity:0.7;
+}
+
+
+.pop>li>a{
+text-decoration:none;
+font-size:16px;
+font-weight:200;
+color:#000; 
+}
+.pop>li>a:hover{
+color:#fff;
+}
+
+.popup{
+display:none
+}
+
+
+
+@media all and (max-width:950px){
+.burger{
+position:fixed;
+display:block;
+}
+.menu{
+display:none;
+}
+.Imgblock{
+display:none;
+}
+div.info {
+display:none; 
+}
+#task{
+display: flex;
+flex-direction: column;
+}
+#task_wrap{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+#foto_no{
+display:none
+}
+text.tyt {visibility:hidden;
+}
+text.Bold{visibility:hidden;
+}
+
+.popup{
+position:static;
+top:75px;
+left:-100%;
+width:100%;
+height:200px;
+background-color:#C2D1F3;
+z-index:100;
+display:flex;
+transition:0.3s;
+}
+.popup.open{
+left:0
+}
+
+#iPhone_1{
+display:none;
+}
+
+}
+@media all and (max-width:660px){
+
+#iPhone_2{
+display:none;
+}
+
+}
+@media all and (max-width:500px){
+
+#iPhone_3{
+display:none;
+}
+.ellipse{list-style-image:none}
+}
+@keyframes MyAnimationIphone
+{
+    from { background-color: white; color: black; border-color: cyan}
+    50% { background-color: #C2D1F3; color: white;}
+    to { background-color: white black; border-color: #fff}
+}
+a.up{
+ border:solid 1px;padding:10px; border-radius:100px; background-color: #C2D1F3;
+ margin-top:10px; animation: MyAnimationIphone 5s infinite;
+}
+p { 
+   font-size:20px;
+ font-style: normal;
+ font-weight:300; 
+}
